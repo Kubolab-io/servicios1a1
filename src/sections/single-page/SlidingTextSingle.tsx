@@ -3,15 +3,7 @@ import slidingTextShape from "../../../public/assets/images/shapes/sliding-text-
 import Image from 'next/image';
 
 const SlidingTextSingle: React.FC = () => {
-    type SlidingText = [
-        "Organizing",
-        "Sanitizing",
-        "Mopping",
-        "Dusting",
-        "Vacuuming",
-        "Polishing",
-    ]
-    const textItems: SlidingText = [
+    const textItems: string[] = [
         "Organizing",
         "Sanitizing",
         "Mopping",
