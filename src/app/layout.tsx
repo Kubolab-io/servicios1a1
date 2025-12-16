@@ -1,6 +1,8 @@
 import ContextProvider from "@/components/context/ContextProvider";
 import type { Metadata } from "next";
 import { DM_Sans, Bricolage_Grotesque } from "next/font/google";
+import "../../public/assets/css/flaticon.css";
+import "../../public/assets/css/font-awesome-all.css";
 import "../../public/assets/css/style.css";
 import "swiper/css";
 import "swiper/css/navigation";
