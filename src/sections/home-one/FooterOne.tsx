@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import footerimg1 from "../../../public/assets/images/shapes/site-footer-shape-2.png"
-import footerimg2 from "../../../public/assets/images/resources/site-footer-logo-1.png"
+import footerimg2 from "../../../public/assets/images/resources/logo-2.png"
 import footerimg3 from "../../../public/assets/images/shapes/site-footer-shape-1.png"
 import footerimg4 from "../../../public/assets/images/resources/site-footer-top-right-heading-img.png"
 import Image from 'next/image'
