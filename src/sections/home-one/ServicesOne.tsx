@@ -48,8 +48,8 @@ const ServicesOne: React.FC = () => {
                                 <p className="services-one__top-text">
                                     Ofrecemos servicios integrales de limpieza y
                                     <br />
-                                    mantenimiento diseñados específicamente para <br />
-                                    colegios y centros educativos en Colombia.
+                                    mantenimiento para instituciones educativas, <br />
+                                    colegios y universidades en Colombia.
                                 </p>
                             </div>
                         </div>

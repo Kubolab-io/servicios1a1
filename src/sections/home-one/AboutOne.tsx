@@ -118,9 +118,9 @@ const AboutOne: React.FC = () => {
                                     </h2>
                                 </div>
                                 <p className="about-one__text">
-                                    Especializados en servicios de limpieza y mantenimiento para colegios,
-                                    garantizando ambientes seguros, higiénicos y saludables que favorecen
-                                    el aprendizaje y bienestar de la comunidad educativa.
+                                    Especializados en servicios de limpieza y mantenimiento para instituciones educativas,
+                                    colegios y universidades, garantizando ambientes seguros, higiénicos y saludables que 
+                                    favorecen el aprendizaje y bienestar de la comunidad educativa.
                                 </p>
                                 <div className="about-one__client-box">
                                     <div className="about-one__client-img-box">

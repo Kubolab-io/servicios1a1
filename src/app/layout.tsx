@@ -20,8 +20,8 @@ const bricolage = Bricolage_Grotesque({
 });
 
 export const metadata: Metadata = {
-  title: "ServiciosUnoaUno - Servicios de Aseo para Colegios en Colombia",
-  description: "Servicios especializados de limpieza y mantenimiento para instituciones educativas en Colombia",
+  title: "ServiciosUnoaUno - Aseo para Instituciones Educativas, Colegios y Universidades",
+  description: "Servicios especializados de limpieza y mantenimiento para instituciones educativas, colegios y universidades en Colombia",
 };
 
 export default function RootLayout({

@@ -62,8 +62,8 @@ const FooterOne: React.FC = () => {
                                             <Link href={"/"}><Image src={footerimg2} alt="" /></Link>
                                         </div>
                                         <p className="site-footer__text-1">Especializados en servicios de limpieza y mantenimiento
-                                            para instituciones educativas. Creamos ambientes seguros y saludables
-                                            para el aprendizaje.</p>
+                                            para instituciones educativas, colegios y universidades. Creamos ambientes seguros 
+                                            y saludables para el aprendizaje.</p>
                                     </div>
                                     <div className="site-footer__contact-info-box">
                                         <ul className="list-unstyled site-footer__contact-info">

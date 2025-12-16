@@ -28,12 +28,12 @@ const OfficeLocation: React.FC = () => {
                                     <span className="section-title__tagline">Nuestras Ubicaciones</span>
                                 </div>
                                 <h2 className="section-title__title title-animation">
-                                    <TextAnimation text='Servicios de Aseo Escolar' textColor='black'/>
-                                    <TextAnimation text='en las Principales Ciudades' /> 
+                                    <TextAnimation text='Aseo para Instituciones' textColor='black'/>
+                                    <TextAnimation text='Educativas en Colombia' /> 
                                 </h2>
                             </div>
                             <p className="office-location__text">Cobertura en las principales ciudades de Colombia. 
-                                Servicios especializados de limpieza para instituciones educativas.</p>
+                                Servicios especializados de limpieza para instituciones educativas, colegios y universidades.</p>
                             <div className="office-location__btn-box">
                                 <a href="#contact" onClick={(e) => {
                                     e.preventDefault();

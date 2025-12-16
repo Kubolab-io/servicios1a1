@@ -22,8 +22,8 @@ const Banner: React.FC = () => {
     // Typing effect
     useEffect(() => {
         const typedStrings: string[] = [
-            'Servicios de Aseo Escolar!',
-            'Ambientes Limpios y Seguros'
+            'Instituciones Educativas!',
+            'Colegios y Universidades!'
         ];
         const typeSpeed: number = 100;
         const deleteSpeed: number = 50;
@@ -124,7 +124,7 @@ const Banner: React.FC = () => {
                         <div className="banner-one__left">
                             <div className="banner-one__title-box">
                                 <h2 className="banner-one__title">
-                                    Servicios de Aseo para Colegios <br />
+                                    Servicios de Aseo para <br />
                                     <span className="typed-effect banner-one__title-color">
                                         {typedText}
                                         <span className="cursor" style={{
@@ -135,8 +135,8 @@ const Banner: React.FC = () => {
                                 </h2>
                             </div>
                             <p className="banner-one__text">
-                                Servicios especializados de limpieza y mantenimiento para instituciones educativas.
-                                <br /> Ambientes seguros, higiénicos y saludables para el aprendizaje.
+                                Servicios especializados de limpieza y mantenimiento para instituciones educativas,
+                                <br /> colegios y universidades. Ambientes seguros y saludables para el aprendizaje.
                             </p>
                             <div className="banner-one__btn-box">
                                 <a href="#contact" onClick={(e) => {
@@ -206,7 +206,7 @@ const Banner: React.FC = () => {
                                         <p className="odometer">{satisfiedCount}</p>
                                         <span>+</span>
                                     </div>
-                                    <p className="banner-one__satisfied-partner-text">Colegios</p>
+                                    <p className="banner-one__satisfied-partner-text">Instituciones</p>
                                 </div>
                             </div>
                         </div>
