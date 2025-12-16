@@ -67,10 +67,10 @@ const Banner: React.FC = () => {
 
         const ratingTimer = setInterval(() => {
             setRatingCount(prev => {
-                if (prev < 1) {
+                if (prev < 1.1) {
                     return prev + 0.1;
                 } else {
-                    return 1;
+                    return 1.1;
                 }
             });
         }, 250);
@@ -253,10 +253,13 @@ const Banner: React.FC = () => {
                                         <div className="banner-one__google-rating-star">
                                             <span className="icon-star"></span>
                                             <span className="icon-star"></span>
+                                            <span className="icon-star"></span>
+                                            <span className="icon-star"></span>
+                                            <span className="icon-star"></span>
                                         </div>
                                         <div className="banner-one__google-rating-count count-box">
                                             <p className="count-text">{ratingCount.toFixed(1)}</p>
-                                            <span>k Calificaciones</span>
+                                            <span>k Ratings</span>
                                         </div>
                                     </div>
                                 </div>
