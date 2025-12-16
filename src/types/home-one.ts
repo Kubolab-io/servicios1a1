@@ -1,14 +1,7 @@
 import { StaticImageData } from "next/image";
 
 // sliding text
-export type SlidingText = [
-    "Organizing",
-    "Sanitizing",
-    "Mopping",
-    "Dusting",
-    "Vacuuming",
-    "Polishing",
-]
+export type SlidingText = string[]
 
 // projects
 export interface Project {
