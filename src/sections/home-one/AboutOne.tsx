@@ -119,8 +119,8 @@ const AboutOne: React.FC = () => {
                                         <span className="section-title__tagline">Sobre Nosotros</span>
                                     </div>
                                     <h2 className="section-title__title title-animation">
-                                        <TextAnimation text='Expertos en Aseo y' textColor='black' />
-                                        <TextAnimation text='Mantenimiento para' textColor='black' />
+                                        <TextAnimation text='Expertos en Aseo y ' textColor='black' />
+                                        <TextAnimation text='Mantenimiento para ' textColor='black' />
                                         <TextAnimation text='Instituciones Educativas' textColor='' />
                                     </h2>
                                 </div>
@@ -146,12 +146,6 @@ const AboutOne: React.FC = () => {
                                         <p className="about-one__client-text">
                                             Nos enorgullece brindar servicios de limpieza especializados
                                             que crean entornos educativos seguros y saludables.
-                                        </p>
-                                        <p className="about-one__sub-title">
-                                            Nuestro Director <span>ServiciosUnoaUno</span>
-                                        </p>
-                                        <p className="about-one__client-text-2">
-                                            Juntos construimos espacios educativos más limpios y seguros.
                                         </p>
                                     </div>
                                 </div>
