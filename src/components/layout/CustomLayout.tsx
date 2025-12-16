@@ -2,7 +2,6 @@
 import React, { useContext } from 'react';
 import MobileNav from '../elements/MobileNav';
 import FreshFlowContext from '../context/FreshFlowContext';
-import ScrollToTop from '../elements/ScrollToTop';
 import SideBar from '../elements/SideBar';
 import { usePathname } from 'next/navigation';
 import MobileNavSingle from '../elements/MobileNavSingle';
@@ -16,7 +15,6 @@ const CustomLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => 
         <div className={`${isMobileOpen ? "locked" : ""} ${isSearch ? "search-active" : ""}`}>
             {children}
             {pathName === "/single-page" ? < MobileNavSingle /> : <MobileNav />}
-            <ScrollToTop />
             <SideBar />
         </div >
     );
