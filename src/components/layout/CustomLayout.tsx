@@ -1,7 +1,6 @@
 "use client"
 import React, { useContext } from 'react';
 import CustomCursor from '../elements/CustomCursor';
-import ChatProp from '../elements/ChatProp';
 import MobileNav from '../elements/MobileNav';
 import FreshFlowContext from '../context/FreshFlowContext';
 import ScrollToTop from '../elements/ScrollToTop';
@@ -17,7 +16,6 @@ const CustomLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => 
     return (
         <div className={`custom-cursor ${isMobileOpen ? "locked" : ""} ${isSearch ? "search-active" : ""}`}>
             <CustomCursor />
-            <ChatProp />
             {children}
             {pathName === "/single-page" ? < MobileNavSingle /> : <MobileNav />}
             <ScrollToTop />

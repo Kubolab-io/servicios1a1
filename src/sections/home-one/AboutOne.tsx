@@ -96,13 +96,6 @@ const AboutOne: React.FC = () => {
                                     </div>
                                 </div>
                             </motion.div>
-                            <h2
-                                className="about-one__left-big-title wow fadeInLeft"
-                                data-wow-delay="300ms"
-                                data-wow-duration="1500ms"
-                            >
-                                ServiciosUnoaUno
-                            </h2>
                         </motion.div>
                         <div className="col-xl-6">
                             <div
@@ -190,18 +183,6 @@ const AboutOne: React.FC = () => {
                                             <p>Ambientes educativos saludables</p>
                                         </li>
                                     </ul>
-                                </div>
-                                <div className="about-one__mission-box">
-                                    <div className="icon">
-                                        <span className="icon-target"></span>
-                                    </div>
-                                    <div className="content">
-                                        <h3>Nuestra Misión y Visión</h3>
-                                        <p>
-                                            Crear espacios educativos limpios y seguros que
-                                            <br /> promuevan el aprendizaje
-                                        </p>
-                                    </div>
                                 </div>
                             </div>
                         </div>
