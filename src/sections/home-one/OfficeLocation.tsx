@@ -72,7 +72,7 @@ const OfficeLocation: React.FC = () => {
                                             }}>
                                                 <span className="icon-pin" style={{ 
                                                     fontSize: '28px', 
-                                                    color: '#667eea',
+                                                    color: '#a8edea',
                                                     marginRight: '20px'
                                                 }}></span>
                                                 <div>
@@ -81,12 +81,12 @@ const OfficeLocation: React.FC = () => {
                                                         fontWeight: 'bold',
                                                         marginBottom: '5px',
                                                         color: '#1a1a1a'
-                                                    }}>Barranquilla</h4>
+                                                    }}>Bogotá</h4>
                                                     <p style={{ 
                                                         fontSize: '14px', 
                                                         color: '#666',
                                                         margin: 0
-                                                    }}>Atlántico</p>
+                                                    }}>Cundinamarca</p>
                                                 </div>
                                             </li>
                                             
@@ -266,7 +266,7 @@ const OfficeLocation: React.FC = () => {
                                             }}>
                                                 <span className="icon-pin" style={{ 
                                                     fontSize: '28px', 
-                                                    color: '#a8edea',
+                                                    color: '#667eea',
                                                     marginRight: '20px'
                                                 }}></span>
                                                 <div>
@@ -275,12 +275,12 @@ const OfficeLocation: React.FC = () => {
                                                         fontWeight: 'bold',
                                                         marginBottom: '5px',
                                                         color: '#1a1a1a'
-                                                    }}>Bogotá</h4>
+                                                    }}>Barranquilla</h4>
                                                     <p style={{ 
                                                         fontSize: '14px', 
                                                         color: '#666',
                                                         margin: 0
-                                                    }}>Cundinamarca</p>
+                                                    }}>Atlántico</p>
                                                 </div>
                                             </li>
                                             
