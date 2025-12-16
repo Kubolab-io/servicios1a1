@@ -6,10 +6,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && node scripts/fix-fonts-paths.js",
     "start": "next start",
     "lint": "eslint",
-    "export": "next build"
+    "export": "next build && node scripts/fix-fonts-paths.js"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.1.0",
