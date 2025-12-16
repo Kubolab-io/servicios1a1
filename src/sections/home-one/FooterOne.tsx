@@ -121,20 +121,8 @@ const FooterOne: React.FC = () => {
                     </div>
                     <div className="site-footer__bottom">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6">
-                                <div className="site-footer__subscribe-form-box">
-                                    <form onSubmit={handleForm} className="site-footer__subscribe-form">
-                                        <div className="site-footer__subscribe-input">
-                                            <input name="footerEmail" type="email" placeholder="Email Address" />
-                                        </div>
-                                        <button type="submit" className="site-footer__subscribe-btn"> <span
-                                            className="icon-send"></span>
-                                            Subscribe</button>
-                                    </form>
-                                </div>
-                            </div>
-                            <div className="col-xl-6 col-lg-6">
-                                <div className="site-footer__bottom-text-box">
+                            <div className="col-xl-12">
+                                <div className="site-footer__bottom-text-box text-center">
                                     <p className="site-footer__bottom-text">Copyright © 2025 by <Link href="/">ServiciosUnoaUno.</Link> All
                                         rights reserved.</p>
                                 </div>
