@@ -7,7 +7,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
+  basePath: '/servicios1a1',
+  assetPrefix: '/servicios1a1',
   trailingSlash: true,
 };
 
