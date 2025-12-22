@@ -239,7 +239,7 @@ const SectionTitle: FC = () => (
             <span className="section-title__tagline">CONTÁCTANOS</span>
         </div>
         <h2 className="section-title__title title-animation">
-            Solicita una cotización personalizada para tu institución educativa
+            Solicita tu cotización personalizada
         </h2>
     </div>
 );
