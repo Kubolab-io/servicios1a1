@@ -14,7 +14,7 @@ const AboutOne: React.FC = () => {
 
     const handleVideoClick = (
         e: React.MouseEvent<HTMLAnchorElement>,
-        videoUrl: string = "https://www.youtube.com/embed/MLpWrANjFbI?autoplay=1"
+        videoUrl: string = "https://www.youtube.com/embed/nkOmNmZ28ek?autoplay=1"
     ): void => {
         e.preventDefault();
         setCurrentVideoUrl(videoUrl);
@@ -81,7 +81,7 @@ const AboutOne: React.FC = () => {
                                                         onClick={(e) =>
                                                             handleVideoClick(
                                                                 e,
-                                                                "https://www.youtube.com/embed/MLpWrANjFbI?autoplay=1"
+                                                                "https://www.youtube.com/embed/nkOmNmZ28ek?autoplay=1"
                                                             )
                                                         }
                                                     >
