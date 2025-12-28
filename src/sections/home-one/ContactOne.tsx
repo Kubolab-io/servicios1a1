@@ -213,6 +213,8 @@ const ImageSection: FC = () => (
                 <Image
                     src={contImg4}
                     alt="Service preview"
+                    width={235}
+                    height={235}
                 />
             </div>
             <div
