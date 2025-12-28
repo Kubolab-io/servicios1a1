@@ -63,17 +63,11 @@ const Header: React.FC = () => {
                         <div className="main-menu__top-social-box">
                             <h4 className="main-menu__top-social-title">Síguenos</h4>
                             <div className="main-menu__top-social">
-                                <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                                    <span className="icon-facebook-app-symbol"></span>
-                                </Link>
-                                <Link href="https://pinterest.com" target="_blank" rel="noopener noreferrer">
-                                    <span className="icon-pinterest"></span>
-                                </Link>
-                                <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                                    <span className="icon-linkedin-big-logo"></span>
-                                </Link>
-                                <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                                <Link href="https://www.instagram.com/serviciosunoaoficial" target="_blank" rel="noopener noreferrer">
                                     <span className="icon-instagram"></span>
+                                </Link>
+                                <Link href="https://www.facebook.com/p/Servicios-Uno-a-Uno-100094252877806/" target="_blank" rel="noopener noreferrer">
+                                    <span className="icon-facebook-app-symbol"></span>
                                 </Link>
                             </div>
                         </div>

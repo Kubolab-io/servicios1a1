@@ -109,10 +109,8 @@ const FooterOne: React.FC = () => {
                                     <div className="site-footer__social-box">
                                         <h4 className="site-footer__social-title">Síguenos</h4>
                                         <div className="site-footer__social">
-                                            <Link href="#"><span className="icon-facebook-app-symbol"></span></Link>
-                                            <Link href="#"><span className="icon-pinterest"></span></Link>
-                                            <Link href="#"><span className="icon-linkedin-big-logo"></span></Link>
-                                            <Link href="#"><span className="icon-instagram"></span></Link>
+                                            <Link href="https://www.instagram.com/serviciosunoaoficial" target="_blank" rel="noopener noreferrer"><span className="icon-instagram"></span></Link>
+                                            <Link href="https://www.facebook.com/p/Servicios-Uno-a-Uno-100094252877806/" target="_blank" rel="noopener noreferrer"><span className="icon-facebook-app-symbol"></span></Link>
                                         </div>
                                     </div>
                                 </div>

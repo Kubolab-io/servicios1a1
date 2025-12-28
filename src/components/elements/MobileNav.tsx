@@ -89,10 +89,8 @@ const MobileNav: React.FC = () => {
                 </ul>
                 <div className="mobile-nav__top">
                     <div className="mobile-nav__social">
-                        <Link href="#" className="fab fa-twitter"></Link>
-                        <Link href="#" className="fab fa-facebook-square"></Link>
-                        <Link href="#" className="fab fa-pinterest-p"></Link>
-                        <Link href="#" className="fab fa-instagram"></Link>
+                        <Link href="https://www.instagram.com/serviciosunoaoficial" target="_blank" rel="noopener noreferrer" className="fab fa-instagram"></Link>
+                        <Link href="https://www.facebook.com/p/Servicios-Uno-a-Uno-100094252877806/" target="_blank" rel="noopener noreferrer" className="fab fa-facebook-square"></Link>
                     </div>
                 </div>
             </div>
