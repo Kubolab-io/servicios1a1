@@ -9,7 +9,7 @@ import contImg1 from "../../../public/assets/images/shapes/contact-one-shape-2.p
 import contImg2 from "../../../public/assets/images/shapes/contact-one-shape-3.png";
 import contImg3 from "../../../public/assets/images/resources/contact-one-img-main.jpg";
 import contImg4 from "../../../public/assets/images/resources/contact-one-small-img-1.jpg";
-import contImg5 from "../../../public/assets/images/resources/contact-one-small-img-2.jpg";
+import contImg5 from "../../../public/assets/images/resources/contact-one-small-img-12.jpg";
 import { Link } from "lucide-react";
 
 // Types

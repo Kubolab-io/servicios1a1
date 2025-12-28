@@ -48,7 +48,7 @@ const AboutOne: React.FC = () => {
                                 className="about-one__left "
                             >
                                 <div className="row">
-                                    <div className="col-xl-4 col-lg-4 col-md-4">
+                                    <div className="col-xl-4 col-lg-4 col-md-4 d-none d-md-block">
                                         <div className="about-one__left-img-box">
                                             <div className="about-one__left-img-1">
                                                 <Image
@@ -66,7 +66,7 @@ const AboutOne: React.FC = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-xl-8 col-lg-8 col-md-8">
+                                    <div className="col-xl-8 col-lg-8 col-md-8 col-12">
                                         <div className="about-one__left-img-box-2">
                                             <div className="about-one__left-img-3">
                                                 <Image
