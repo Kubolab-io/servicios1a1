@@ -1,7 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 
-const basePath = '/servicios1a1';
 const cssDir = path.join(__dirname, '../out/assets/css');
 
 // Archivos CSS a modificar
@@ -11,10 +10,8 @@ cssFiles.forEach(file => {
   const filePath = path.join(cssDir, file);
   if (fs.existsSync(filePath)) {
     let content = fs.readFileSync(filePath, 'utf8');
-    // Reemplazar ../../fonts/ con /servicios1a1/fonts/
-    content = content.replace(/url\(['"]?\.\.\/\.\.\/fonts\//g, `url('${basePath}/fonts/`);
-    // También reemplazar /fonts/ con /servicios1a1/fonts/ por si acaso
-    content = content.replace(/url\(['"]?\/fonts\//g, `url('${basePath}/fonts/`);
+    // Reemplazar ../../fonts/ con /fonts/ (ruta absoluta desde la raíz)
+    content = content.replace(/url\(['"]?\.\.\/\.\.\/fonts\//g, `url('/fonts/`);
     fs.writeFileSync(filePath, content);
     console.log(`✅ Fixed font paths in ${file}`);
   }
