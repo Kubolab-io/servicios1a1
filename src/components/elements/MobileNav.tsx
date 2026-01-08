@@ -84,7 +84,7 @@ const MobileNav: React.FC = () => {
                     </li>
                     <li>
                         <i className="fas fa-phone"></i>
-                        <Link href="tel:+573014374588">(+57) 301-437-4588</Link>
+                        <Link href="tel:3014374588">301-437-4588</Link>
                     </li>
                 </ul>
                 <div className="mobile-nav__top">

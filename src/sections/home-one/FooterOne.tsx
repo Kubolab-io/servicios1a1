@@ -92,14 +92,10 @@ const FooterOne: React.FC = () => {
                                                     <span className="icon-phone-call"></span>
                                                 </div>
                                                 <div className="site-footer__contact-info-content">
-                                                    <p>Teléfonos:</p>
+                                                    <p>Teléfono:</p>
                                                     <h5>
-                                                        <Link href="tel:+573014374588">
-                                                            (+57) 301-437-4588
-                                                        </Link>
-                                                        <br />
-                                                        <Link href="tel:+573214783379">
-                                                            (+57) 321-478-3379
+                                                        <Link href="tel:3014374588">
+                                                            301-437-4588
                                                         </Link>
                                                     </h5>
                                                 </div>

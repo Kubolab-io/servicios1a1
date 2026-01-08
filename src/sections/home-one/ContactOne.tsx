@@ -49,8 +49,8 @@ const CONTACT_INFO: ContactInfo[] = [
         id: "phone",
         icon: "icon-phone-call",
         label: "Llámanos",
-        title: "(+57) 301-437-4588",
-        link: "tel:+573014374588",
+        title: "301-437-4588",
+        link: "tel:3014374588",
         linkType: "tel",
     },
 ];
